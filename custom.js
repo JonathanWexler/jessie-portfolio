@@ -1,3 +1,5 @@
+// Copyright Jon Wexler 2016 
+
 $(document).ready(function(){
 	setUp();
 

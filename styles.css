@@ -1,10 +1,12 @@
+/*Copyright Jon Wexler 2016 */
+
 @font-face {
 	font-family: break;
-	src: url(master_of_break.otf);
+	src: url(fonts/master_of_break.otf);
 }
 @font-face {
 	font-family: geo;
-	src: url(GeosansLight.ttf);
+	src: url(fonts/GeosansLight.ttf);
 }
 
 body{
