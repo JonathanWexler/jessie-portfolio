@@ -98,7 +98,8 @@ a{
 		/*background-color: lightgreen;*/
 	}
 	.container{
-		margin: 0px;
+		width: 100%; 
+		padding: 0px
 	}
 	.contact h1{
 		font-size: 40px;
