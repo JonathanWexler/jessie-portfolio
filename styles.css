@@ -1,0 +1,122 @@
+@font-face {
+	font-family: break;
+	src: url(master_of_break.otf);
+}
+@font-face {
+	font-family: geo;
+	src: url(GeosansLight.ttf);
+}
+
+body{
+	font-family: geo;
+}
+#home{
+	display: none;
+}
+#about{
+	display: none;
+}
+#music{
+	display: none;
+}
+#work{
+	display: none;
+}
+#contact{
+	display: none;
+}
+.youtube{
+	width: 100%;
+}
+.youtube-title{
+	display: block;
+	float: right;
+	clear: right;
+	font-size: 20px;
+	font-family: geo;
+	padding-bottom: 20px;
+}
+
+.title{
+	font-family: break;
+	word-spacing: 30px;
+}
+a:hover{
+	text-decoration: none;
+}
+a{
+	color: grey;
+
+}
+
+.fixy{
+	position: fixed;
+}
+.nav{
+	font-family: break;
+}
+.links{
+	color: lightgrey;
+	float: right;
+	clear: right;
+	display: inline;
+	word-spacing: 30px;
+	overflow: visible !important;
+
+}
+.links a{
+	color: lightgrey;
+}
+.links h3{
+	padding: 10px;
+	padding-left: 20px;
+	padding-right: 40px;
+
+}
+.links a:hover{
+	color: lightblue;
+	text-decoration: none;
+}
+.first-img{
+	width: 100%;
+}
+.top{
+	margin-top: 100px;
+}
+.contact{
+	text-align: center;
+}
+.contact h1{
+	text-decoration: underline;
+	padding-bottom: 50px;
+}
+
+@media only screen and (max-width: 992px) {
+	body {
+		/*background-color: lightgreen;*/
+	}
+
+	.title{
+		text-align: center;
+	}
+	.nav{
+		/*text-align: center;*/
+		margin: 0 auto;
+		display: block;
+	}
+
+	div.links{
+		float: left;
+		font-size: 10px;
+		word-spacing: 10px;
+		text-align: center;
+		padding: 0;
+		display: inline;
+	}
+	.links h3{
+		font-size: 20px;
+	}
+	.fixy{
+		position: relative;
+	}
+}
