@@ -97,22 +97,30 @@ a{
 	body {
 		/*background-color: lightgreen;*/
 	}
-
+	.container{
+		margin: 0px;
+	}
+	.contact h1{
+		font-size: 40px;
+	}
+	.contact h2{
+		font-size: 50px;
+	}
 	.title{
 		text-align: center;
 	}
 	.nav{
-  display: inline-block;
-  float: none;
-  vertical-align: top;
-  text-align: center;
-    width: 100%;
+		display: inline-block;
+		float: none;
+		vertical-align: top;
+		text-align: center;
+		width: 100%;
 	}
 	.nav .links{
-  display: inline-block;
-  float: none;
-  vertical-align: top;
-  text-align: center;
+		display: inline-block;
+		float: none;
+		vertical-align: top;
+		text-align: center;
 
 	}
 
