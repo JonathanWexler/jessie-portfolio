@@ -102,18 +102,27 @@ a{
 		text-align: center;
 	}
 	.nav{
-		/*text-align: center;*/
-		margin: 0 auto;
-		display: block;
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+  text-align: center;
+    width: 100%;
+	}
+	.nav .links{
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+  text-align: center;
+
 	}
 
 	div.links{
-		float: left;
+/*		float: left;
 		font-size: 10px;
 		word-spacing: 10px;
 		text-align: center;
 		padding: 0;
-		display: inline;
+		display: block;*/
 	}
 	.links h3{
 		font-size: 20px;
