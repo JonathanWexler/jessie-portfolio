@@ -1,142 +1,160 @@
 /*Copyright Jon Wexler 2016 */
 
 @font-face {
-	font-family: break;
-	src: url(fonts/master_of_break.otf);
+  font-family: break;
+  src: url(fonts/master_of_break.otf);
 }
+
 @font-face {
-	font-family: geo;
-	src: url(fonts/GeosansLight.ttf);
+  font-family: geo;
+  src: url(fonts/GeosansLight.ttf);
 }
 
-body{
-	font-family: geo;
-}
-#home{
-	display: none;
-}
-#about{
-	display: none;
-}
-#music{
-	display: none;
-}
-#work{
-	display: none;
-}
-#contact{
-	display: none;
-}
-.youtube{
-	width: 100%;
-}
-.youtube-title{
-	display: block;
-	float: right;
-	clear: right;
-	font-size: 20px;
-	font-family: geo;
-	padding-bottom: 20px;
+body {
+  font-family: geo;
 }
 
-.title{
-	font-family: break;
-	word-spacing: 30px;
-}
-a:hover{
-	text-decoration: none;
-}
-a{
-	color: grey;
-
+#home {
+  display: none;
 }
 
-.fixy{
-	position: fixed;
+#about {
+  display: none;
 }
-.nav{
-	font-family: break;
-}
-.links{
-	color: lightgrey;
-	float: right;
-	clear: right;
-	display: inline;
-	word-spacing: 30px;
-	overflow: visible !important;
 
+#music {
+  display: none;
 }
-.links a{
-	color: lightgrey;
-}
-.links h3{
-	padding: 10px;
-	padding-left: 20px;
-	padding-right: 40px;
 
+#work {
+  display: none;
 }
-.links a:hover{
-	color: lightblue;
-	text-decoration: none;
+
+#contact {
+  display: none;
 }
-.first-img{
-	width: 100%;
+
+.youtube {
+  width: 100%;
 }
-.top{
-	margin-top: 100px;
+
+.youtube-title {
+  display: block;
+  float: right;
+  clear: right;
+  font-size: 20px;
+  font-family: geo;
+  padding-bottom: 20px;
 }
-.contact{
-	text-align: center;
+
+.title {
+  font-family: break;
+  word-spacing: 30px;
 }
-.contact h1{
-	text-decoration: underline;
-	padding-bottom: 50px;
+
+a:hover {
+  text-decoration: none;
+}
+
+a {
+  color: grey;
+}
+
+.fixy {
+  position: fixed;
+}
+
+.nav {
+  font-family: break;
+}
+
+.links {
+  color: lightgrey;
+  float: right;
+  clear: right;
+  display: inline;
+  word-spacing: 30px;
+  overflow: visible !important;
+}
+
+.links a {
+  color: lightgrey;
+}
+
+.links h3 {
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 40px;
+}
+
+.links a:hover {
+  color: lightblue;
+  text-decoration: none;
+}
+
+.first-img {
+  width: 100%;
+}
+
+.top {
+  margin-top: 100px;
+}
+
+.contact {
+  text-align: center;
+}
+
+.contact h1 {
+  text-decoration: underline;
+  padding-bottom: 50px;
+}
+
+#main-content p {
+  font-size: 20px;
 }
 
 @media only screen and (max-width: 992px) {
-	body {
-		/*background-color: lightgreen;*/
-	}
-	.container{
-		width: 100%; 
-		padding: 0px
-	}
-	.contact h1{
-		font-size: 50px;
-	}
-	.contact h2{
-		font-size: 60px;
-	}
-	.title{
-		text-align: center;
-	}
-	.nav{
-		display: inline-block;
-		float: none;
-		vertical-align: top;
-		text-align: center;
-		width: 100%;
-	}
-	.nav .links{
-		display: inline-block;
-		float: none;
-		vertical-align: top;
-		text-align: center;
-
-	}
-
-	div.links{
-/*		float: left;
+  body {
+    /*background-color: lightgreen;*/
+  }
+  .container {
+    width: 100%;
+    padding: 0px
+  }
+  .contact h1 {
+    font-size: 50px;
+  }
+  .contact h2 {
+    font-size: 60px;
+  }
+  .title {
+    text-align: center;
+  }
+  .nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+    text-align: center;
+    width: 100%;
+  }
+  .nav .links {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+    text-align: center;
+  }
+  div.links {
+    /*		float: left;
 		font-size: 10px;
 		word-spacing: 10px;
 		text-align: center;
 		padding: 0;
 		display: block;*/
-	}
-	.links h3{
-		font-size: 30px;
-	}
-	.fixy{
-		position: relative;
-	}
+  }
+  .links h3 {
+    font-size: 30px;
+  }
+  .fixy {
+    position: relative;
+  }
 }
