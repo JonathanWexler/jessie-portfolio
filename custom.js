@@ -16,14 +16,13 @@ function setUp () {
 		$('.links#tab-music').fadeIn(500, function () {
 			$('.links#tab-work').fadeIn(500, function () {
 				$('.links#tab-contact').fadeIn(500, function () {
-					console.log("DNE");
+					console.log("");
 				})
 			})
 		})
 	})
 
 	$(function() {
-		console.log("THING IS " + document.location.href.split("#").pop())
 		fadeContent(document.location.href.split("#").pop());
 	});
 	
