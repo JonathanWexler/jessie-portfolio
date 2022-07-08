@@ -10,17 +10,12 @@ $(document).ready(function(){
 });
 
 function setUp () {
-
 	$('.links').hide();
-	$('.links#tab-about').fadeIn(500, function () {
-		$('.links#tab-music').fadeIn(500, function () {
-			$('.links#tab-work').fadeIn(500, function () {
-				$('.links#tab-contact').fadeIn(500, function () {
-					console.log("");
-				})
-			})
-		})
-	})
+	const links = $('.links');
+	links.each(function(i) {
+		console.log(i)
+		$(this).fadeIn(500 + i*500);
+	});
 
 	$(function() {
 		fadeContent(document.location.href.split("#").pop());
