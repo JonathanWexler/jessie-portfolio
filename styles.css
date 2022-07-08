@@ -44,7 +44,7 @@
 .nav-link {
   width: 80px;
 }
-.nav-link.:hover::before {
+.nav-link:hover::before {
   position:absolute;
   /* display: inline-flex;
   align-content: start; */
